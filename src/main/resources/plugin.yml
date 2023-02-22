@@ -1,0 +1,12 @@
+name: Hottime
+version: '${project.version}'
+main: org.hot.Hottime
+api-version: 1.19
+authors: [ minding2796 ]
+description: Hottime Plugin
+
+commands:
+  hottime:
+    description: Hottime settings
+    permission: hottime.hottime
+    usage: /hottime <setcoin/setcommand>
